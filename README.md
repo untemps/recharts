@@ -7,6 +7,11 @@
 [![npm downloads](https://img.shields.io/npm/dm/recharts.svg?style=flat-square)](https://www.npmjs.com/package/recharts)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/recharts/recharts/raw/master/LICENSE)
 
+## Disclaimer
+
+This fork aims to make up for a lack in the original library: when using tooltip and re-rendering the component containing the chart with a setState(), the tooltip vanishes.
+We want the tooltip to be independant from the state of the component that using the chart.
+
 ## Introduction
 
 Recharts is a **Redefined** chart library built with [React](https://facebook.github.io/react/) and [D3](http://d3js.org).
