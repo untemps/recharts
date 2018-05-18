@@ -107,7 +107,7 @@ const generateCategoricalChart = ({
         dataStartIndex: startIndex,
         dataEndIndex: endIndex,
         activeTooltipIndex: -1,
-        isTooltipActive,
+        isTooltipActive: isTooltipActive || false,
       };
     };
 
